@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- 
+     // 1. Create the [design] with HTML & CSS mock-up with **fake data**
+    -->
+	<h1>Generate Text App</h1>
+
+	<form>
+		<textarea type="text" rows="20" cols="40" id="prompt" placeholder="enter your GPT prompt" ></textarea><br>
+		<!-- <input type="text" id="prompt" placeholder="enter your GPT prompt" /> -->
+		<input type="submit" value="Generate Text" id="sub-btn" />
+			<!-- <input type="submit" value="Refresh" id="Refresh" /> -->
+    </form>
+
+		<div id="text"></div>
+
+        <script src="env.js" defer></script>
+		<script src="./app.js"></script>
+</body>
+
+</html>
